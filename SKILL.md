@@ -1,9 +1,6 @@
 ---
 name: writing-plans
-version: 1.1.0
-description: 根据用户创作意图、主题和上下文数据，生成结构化的写作计划（大纲）。支持注入市场数据、链上指标等外部上下文，生成更专业、更有针对性的写作方案。
-author: wxie0815-arch
-tags: [writing, planning, crypto, content-creation]
+description: 根据用户创作意图、主题和上下文数据，生成结构化的写作计划（大纲）。支持注入市场数据、链上指标等外部上下文，生成更专业、更有针对性的写作方案。适用于加密货币、Web3内容创作的规划阶段。
 ---
 
 # Writing Plans: 生成写作计划
@@ -134,42 +131,3 @@ writing-plans → copywriting → humanizer-zh
 # 独立使用
 gh repo clone wxie0815-arch/writing-plans
 ```
-
----
-
-## 💰 赞助支持
-
-如果这个项目对您有帮助，欢迎赞助支持！
-
-**BSC（BEP-20）钱包地址：**
- 
-
-支持 USDT / BNB / 任意 BEP-20 代币。感谢每一位支持者 🙏
-
-**作者：** 无邪Infinity | 币安广场 [@wuxie](https://www.binance.com/en/square/profile/wuxie) | X [@wuxie149](https://x.com/wuxie149)
-
----
-
-## 💰 赞助支持
-
-如果这个项目对您有帮助，欢迎赞助支持！
-
-**BSC（BEP-20）钱包地址：**
- 
-
-支持 USDT / BNB / 任意 BEP-20 代币。感谢每一位支持者 🙏
-
-**作者：** 无邪Infinity | 币安广场 [@wuxie](https://www.binance.com/en/square/profile/wuxie) | X [@wuxie149](https://x.com/wuxie149)
-
----
-
-## 💰 赞助支持
-
-如果这个项目对您有帮助，欢迎赞助支持！
-
-**BSC（BEP-20）钱包地址：**
-`0x3B74BE938caB987120C3661C8e3161CD838e5a1A` 
-
-支持 USDT / BNB / 任意 BEP-20 代币。感谢每一位支持者 🙏
-
-**作者：** 无邪Infinity | 币安广场 [@wuxie](https://www.binance.com/en/square/profile/wuxie) | X [@wuxie149](https://x.com/wuxie149)

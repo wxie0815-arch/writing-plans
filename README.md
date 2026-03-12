@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.1.0-blue)](https://github.com/wxie0815-arch/writing-plans)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Compatible-green)](https://openclaw.ai)
-[![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > 将模糊的创作意图转化为清晰、结构化的写作计划。支持注入市场数据、链上指标等外部上下文，专为加密货币内容创作优化。
 
@@ -33,55 +33,11 @@ gh repo clone wxie0815-arch/writing-plans
 
 ### 在 binance-square-oracle 中使用
 
-`writing-plans` 已内置于 [binance-square-oracle](https://github.com/wxie0815-arch/binance-square-oracle) 预言机中，通过三阶段写作流程自动调用：
-
-```python
-from L7_article_generator import generate_article_v3
-
-result = generate_article_v3(
-    l0_result=market_data,
-    l6_fingerprint=style_fingerprint,
-    user_intent="写一篇关于Layer2发展趋势的分析文章"
-)
-```
+`writing-plans` 已内置于 [binance-square-oracle](https://github.com/wxie0815-arch/binance-square-oracle) 预言机中，通过三阶段写作流程自动调用。
 
 ### 独立使用
 
-```python
-from writing_skill import WritingSkill
-
-skill = WritingSkill()
-plan = skill.generate_writing_plan(
-    intent="写一篇关于BTC突破新高的分析文章",
-    context={
-        "top_tokens": ["BTC", "ETH"],
-        "market_sentiment": "偏多",
-        "hot_topics": ["Layer2", "ETF"]
-    }
-)
-print(plan)
-```
-
-## 📋 输出格式
-
-```json
-{
-  "core_argument": "核心论点（一句话）",
-  "target_audience": "目标受众描述",
-  "key_points": ["要点1", "要点2", "要点3"],
-  "structure": {
-    "introduction": "引言策略",
-    "body": ["正文段落1", "正文段落2"],
-    "conclusion": "结论策略"
-  },
-  "content_suggestions": {
-    "data": "建议引用的数据",
-    "cases": "建议引用的案例",
-    "style": "建议的写作风格"
-  },
-  "estimated_length": "800-1200字"
-}
-```
+详细的 Prompt 指令、输入输出格式和示例，请参考 `SKILL.md`。
 
 ## 🔗 相关 Skill
 
@@ -93,7 +49,7 @@ print(plan)
 
 ## 📄 许可证
 
-MIT License — 自由使用、修改和分发。
+MIT License
 
 ---
 
