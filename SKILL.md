@@ -134,3 +134,16 @@ writing-plans → copywriting → humanizer-zh
 # 独立使用
 gh repo clone wxie0815-arch/writing-plans
 ```
+
+---
+
+## 💰 赞助支持
+
+如果这个项目对您有帮助，欢迎赞助支持！
+
+**BSC（BEP-20）钱包地址：**
+ 
+
+支持 USDT / BNB / 任意 BEP-20 代币。感谢每一位支持者 🙏
+
+**作者：** 无邪Infinity | 币安广场 [@wuxie](https://www.binance.com/en/square/profile/wuxie) | X [@wuxie149](https://x.com/wuxie149)
